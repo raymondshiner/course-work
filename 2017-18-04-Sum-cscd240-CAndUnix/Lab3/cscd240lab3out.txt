@@ -1,0 +1,70 @@
+drodriguez@ubuntu:~/Desktop/CSCD240/Lab3$ vim cscd240Lab3.c
+drodriguez@ubuntu:~/Desktop/CSCD240/Lab3$ make
+gcc -o lab3 cscd240Lab3.c
+drodriguez@ubuntu:~/Desktop/CSCD240/Lab3$ ./lab3
+Please enter your name: Damien Rodriguez
+Please enter the number of scores you are inserting for Labs 
+ -----> 10
+Enter your score for Labs 
+35
+Enter your score for Labs 
+22
+Enter your score for Labs 
+93
+Enter your score for Labs 
+85
+Enter your score for Labs 
+80
+Enter your score for Labs 
+92
+Enter your score for Labs 
+42
+Enter your score for Labs 
+74
+Enter your score for Labs 
+42
+Enter your score for Labs 
+65
+The average for Lab is: 63.0% 
+Please enter the number of scores you are inserting for Homeworks 
+ -----> 4
+Enter your score for Homeworks 
+100
+Enter your score for Homeworks 
+95
+Enter your score for Homeworks 
+30
+Enter your score for Homeworks 
+15
+The average for Homework is: 60.0% 
+Please enter the number of scores you are inserting for Quizzes 
+ -----> 8
+Enter your score for Quizzes 
+45
+Enter your score for Quizzes 
+63
+Enter your score for Quizzes 
+78
+Enter your score for Quizzes 
+85
+Enter your score for Quizzes 
+90
+Enter your score for Quizzes 
+22
+Enter your score for Quizzes 
+78
+Enter your score for Quizzes 
+98
+The average for Quiz is: 69.0% 
+Please enter the number of scores you are inserting for Exams 
+ -----> 3
+Enter your score for Exams 
+84
+Enter your score for Exams 
+75
+Enter your score for Exams 
+100
+The average for Exam is: 86.0% 
+Your weighted percentage is: 71.7% 
+Your final grade is: 1.8 
+

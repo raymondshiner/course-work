@@ -1,0 +1,98 @@
+drodriguez@ubuntu:~/Desktop/CSCD240/Lab2$ ./lab2
+Please enter a number that is greater than 99
+:-200
+Please enter a number that is greater than 99
+:5
+Please enter a number that is greater than 99
+:100
+Please enter your name: Ryban
+
+Please try and guess my number between 1 and 100: 50
+Too small.
+
+Please try and guess my number between 1 and 100: 66
+Too small.
+
+Please try and guess my number between 1 and 100: 80
+Too small.
+
+Please try and guess my number between 1 and 100: 90
+Too small.
+
+Please try and guess my number between 1 and 100: 99
+Too big. 
+
+Please try and guess my number between 1 and 100: 97
+
+Good job Ryban
+, you guessed my number in only 6 guesses.
+Would you like to try again y/n: n
+drodriguez@ubuntu:~/Desktop/CSCD240/Lab2$ ./lab2
+Please enter a number that is greater than 99
+:10000
+Please enter your name: disnaut
+
+Please try and guess my number between 1 and 10000: 8000
+Too big. 
+
+Please try and guess my number between 1 and 10000: 2000
+Too big. 
+
+Please try and guess my number between 1 and 10000: 1000
+Too big. 
+
+Please try and guess my number between 1 and 10000: 900
+Too big. 
+
+Please try and guess my number between 1 and 10000: 200
+
+Good job disnaut
+, you guessed my number in only 5 guesses.
+Would you like to try again y/n: n
+drodriguez@ubuntu:~/Desktop/CSCD240/Lab2$ make
+make: Nothing to be done for 'all'.
+drodriguez@ubuntu:~/Desktop/CSCD240/Lab2$ ./lab2
+Please enter a number that is greater than 99
+:500
+Please enter your name: Tiffany
+
+Please try and guess my number between 1 and 500: 250
+Too small.
+
+Please try and guess my number between 1 and 500: 400
+Too big. 
+
+Please try and guess my number between 1 and 500: 350
+Too big. 
+
+Please try and guess my number between 1 and 500: 270
+Too small.
+
+Please try and guess my number between 1 and 500: 340
+Too big. 
+
+Please try and guess my number between 1 and 500: 300
+Too big. 
+
+Please try and guess my number between 1 and 500: 290
+Too big. 
+
+Please try and guess my number between 1 and 500: 280
+Too small.
+
+Please try and guess my number between 1 and 500: 284
+Too small.
+
+Please try and guess my number between 1 and 500: 286
+Too small.
+
+Please try and guess my number between 1 and 500: 288
+Too big. 
+
+Please try and guess my number between 1 and 500: 287
+
+Good job Tiffany
+, you guessed my number in only 12 guesses.
+Would you like to try again y/n: n
+drodriguez@ubuntu:~/Desktop/CSCD240/Lab2$ 
+

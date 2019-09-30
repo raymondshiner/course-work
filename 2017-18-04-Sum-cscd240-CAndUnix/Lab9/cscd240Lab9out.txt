@@ -1,0 +1,208 @@
+drodriguez@ubuntu:~/Desktop/CSCD240/Lab9$ ./lab9
+
+----------  Hello and welcome to HangMan!  ----------
+
+This is a word guessing game.
+It is suggested that you have 2 players,
+unless you are really lonely, then you can play by yourself.
+We will start by having player 1 enter in their name, and the word they would
+like player 2 to guess. Then player 2 will enter their name, and begin guessing.
+Player 2 will begin with 7 chances to guess the word correctly,
+you will only lose chances when you guess incorrectly.
+
+---------- GOOD LUCK & HAVE FUN! ----------
+Please enter your name: 
+damien
+Please enter the word to guess: 
+dood
+Please enter your name: 
+brent
+Your word contains 4 letters.
+
+----
+Avalible Letters: abcdefghijklmnopqrstuvwxyz
+----
+Please enter a letter: d
+Avalible Letters: abc efghijklmnopqrstuvwxyz
+d--d
+Please enter a letter: o
+Congradulations, brent! You figured out the word was: dood
+Would you like to play again (yes/no)? 
+yes
+
+----------  Hello and welcome to HangMan!  ----------
+
+This is a word guessing game.
+It is suggested that you have 2 players,
+unless you are really lonely, then you can play by yourself.
+We will start by having player 1 enter in their name, and the word they would
+like player 2 to guess. Then player 2 will enter their name, and begin guessing.
+Player 2 will begin with 7 chances to guess the word correctly,
+you will only lose chances when you guess incorrectly.
+
+---------- GOOD LUCK & HAVE FUN! ----------
+Please enter your name: 
+damien
+Please enter the word to guess: 
+youtube
+Please enter your name: 
+brent
+Your word contains 7 letters.
+
+-------
+Avalible Letters: abcdefghijklmnopqrstuvwxyz
+-------
+Please enter a letter: y
+Avalible Letters: abcdefghijklmnopqrstuvwx z
+y------
+Please enter a letter: o
+Avalible Letters: abcdefghijklmn pqrstuvwx z
+yo-----
+Please enter a letter: u
+Avalible Letters: abcdefghijklmn pqrst vwx z
+you-u--
+Please enter a letter: t
+Avalible Letters: abcdefghijklmn pqrs  vwx z
+youtu--
+Please enter a letter: b
+Avalible Letters: a cdefghijklmn pqrs  vwx z
+youtub-
+Please enter a letter: e
+Congradulations, brent! You figured out the word was: youtube
+Would you like to play again (yes/no)? 
+yes
+
+----------  Hello and welcome to HangMan!  ----------
+
+This is a word guessing game.
+It is suggested that you have 2 players,
+unless you are really lonely, then you can play by yourself.
+We will start by having player 1 enter in their name, and the word they would
+like player 2 to guess. Then player 2 will enter their name, and begin guessing.
+Player 2 will begin with 7 chances to guess the word correctly,
+you will only lose chances when you guess incorrectly.
+
+---------- GOOD LUCK & HAVE FUN! ----------
+Please enter your name: 
+damien 
+Please enter the word to guess: 
+forget
+Please enter your name: 
+brent
+Your word contains 6 letters.
+
+------
+Avalible Letters: abcdefghijklmnopqrstuvwxyz
+------
+Please enter a letter: u
+
+ Incorrect guess! You have 6 more tries!
+Avalible Letters: abcdefghijklmnopqrst vwxyz
+------
+Please enter a letter: r
+Avalible Letters: abcdefghijklmnopq st vwxyz
+--r---
+Please enter a letter: e
+Avalible Letters: abcd fghijklmnopq st vwxyz
+--r-e-
+Please enter a letter: a
+
+ Incorrect guess! You have 5 more tries!
+Avalible Letters:  bcd fghijklmnopq st vwxyz
+--r-e-
+Please enter a letter: p
+
+ Incorrect guess! You have 4 more tries!
+Avalible Letters:  bcd fghijklmno q st vwxyz
+--r-e-
+Please enter a letter: o
+Avalible Letters:  bcd fghijklmn  q st vwxyz
+-or-e-
+Please enter a letter: l
+
+ Incorrect guess! You have 3 more tries!
+Avalible Letters:  bcd fghijk mn  q st vwxyz
+-or-e-
+Please enter a letter: z
+
+ Incorrect guess! You have 2 more tries!
+Avalible Letters:  bcd fghijk mn  q st vwxy 
+-or-e-
+Please enter a letter: x
+
+ Incorrect guess! You have 1 more tries!
+Avalible Letters:  bcd fghijk mn  q st vw y 
+-or-e-
+Please enter a letter: c
+
+ Incorrect guess! You have 0 more tries!
+Sorry, brent. You failed to figure out the word is: forget
+Would you like to play again (yes/no)? 
+yes
+
+----------  Hello and welcome to HangMan!  ----------
+
+This is a word guessing game.
+It is suggested that you have 2 players,
+unless you are really lonely, then you can play by yourself.
+We will start by having player 1 enter in their name, and the word they would
+like player 2 to guess. Then player 2 will enter their name, and begin guessing.
+Player 2 will begin with 7 chances to guess the word correctly,
+you will only lose chances when you guess incorrectly.
+
+---------- GOOD LUCK & HAVE FUN! ----------
+Please enter your name: 
+damien
+Please enter the word to guess: 
+turntable
+Please enter your name: 
+brent
+Your word contains 9 letters.
+
+---------
+Avalible Letters: abcdefghijklmnopqrstuvwxyz
+---------
+Please enter a letter: s
+
+ Incorrect guess! You have 6 more tries!
+Avalible Letters: abcdefghijklmnopqr tuvwxyz
+---------
+Please enter a letter: t
+Avalible Letters: abcdefghijklmnopqr  uvwxyz
+t---t----
+Please enter a letter: g
+
+ Incorrect guess! You have 5 more tries!
+Avalible Letters: abcdef hijklmnopqr  uvwxyz
+t---t----
+Please enter a letter: b
+Avalible Letters: a cdef hijklmnopqr  uvwxyz
+t---t-b--
+Please enter a letter: v
+
+ Incorrect guess! You have 4 more tries!
+Avalible Letters: a cdef hijklmnopqr  u wxyz
+t---t-b--
+Please enter a letter: w
+
+ Incorrect guess! You have 3 more tries!
+Avalible Letters: a cdef hijklmnopqr  u  xyz
+t---t-b--
+Please enter a letter: q
+
+ Incorrect guess! You have 2 more tries!
+Avalible Letters: a cdef hijklmnop r  u  xyz
+t---t-b--
+Please enter a letter: z
+
+ Incorrect guess! You have 1 more tries!
+Avalible Letters: a cdef hijklmnop r  u  xy 
+t---t-b--
+Please enter a letter: x
+
+ Incorrect guess! You have 0 more tries!
+Sorry, brent. You failed to figure out the word is: turntable
+Would you like to play again (yes/no)? 
+no
+drodriguez@ubuntu:~/Desktop/CSCD240/Lab9$ 
+

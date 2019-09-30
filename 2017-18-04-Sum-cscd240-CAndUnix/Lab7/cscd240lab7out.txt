@@ -1,0 +1,80 @@
+drodriguez@ubuntu:~/Desktop/CSCD240/Lab7$ vim cscd240Lab7.c 
+drodriguez@ubuntu:~/Desktop/CSCD240/Lab7$ make
+gcc -m32 cscd240Lab7.c -o lab7
+cscd240Lab7.c: In function ‘main’:
+cscd240Lab7.c:20:24: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘unsigned int’ [-Wformat=]
+  printf("sizeof(ptr) %ld\n", sizeof(ptr) );
+                      ~~^
+                      %d
+cscd240Lab7.c:21:28: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘unsigned int’ [-Wformat=]
+  printf("sizeof(twod[0]) %ld\n", sizeof(twod[0]) );
+                          ~~^
+                          %d
+cscd240Lab7.c:22:31: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘unsigned int’ [-Wformat=]
+  printf("sizeof(twod[0][0]) %ld\n", sizeof(twod[0][0]) );
+                             ~~^
+                             %d
+cscd240Lab7.c:59:12: warning: passing argument 1 of ‘function7’ from incompatible pointer type [-Wincompatible-pointer-types]
+  function7(twod,4,3);
+            ^~~~
+cscd240Lab7.c:9:6: note: expected ‘int **’ but argument is of type ‘int (*)[3]’
+ void function7(int **array, int rows, int cols);
+      ^~~~~~~~~
+drodriguez@ubuntu:~/Desktop/CSCD240/Lab7$ ./lab7
+sizeof(ptr) 4
+sizeof(twod[0]) 12
+sizeof(twod[0][0]) 4
+twod 0xffeac10c
+ptr 0xffeac10c
+&twod[0] 0xffeac10c
+&twod[0][0] 0xffeac10c
+&twod[0][1] 0xffeac110
+&twod[0][2] 0xffeac114
+&twod[1] 0xffeac118
+&ptr 0xffeac108
+twod + 3 is: 0xffeac130
+*(*(twod + 1)) is: 10
+*twod + 1 is: 0xffeac110
+*twod[2] is: 20
+*(twod + 2) + 2 is: 0xffeac12c
+twod[1] is: 0xffeac118
+twod[1][2] is: 12
+ptr 0xffeac10c
+twod [1] 0xffeac118
+ptr[1] 1
+ptr + 1 0xffeac110
+*(ptr + 1) 1
+twod + 1 0xffeac118
+*twod + 1 0xffeac110
+ptr[8] 22
+function 1
+0 1 2 
+10 11 12 
+20 21 22 
+30 31 32 
+function 2
+2 1 0 
+12 11 10 
+22 21 20 
+32 31 30 
+function 3 
+0 1 2 
+10 11 12 
+20 21 22 
+30 31 32 
+function 4 
+2 1 0 
+12 11 10 
+22 21 20 
+32 31 30 
+function 5
+2 1 0 
+12 11 10 
+22 21 20 
+32 31 30 
+function 6
+0 1 2 
+10 11 12 
+20 21 22 
+30 31 32 
+

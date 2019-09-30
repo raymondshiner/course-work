@@ -1,0 +1,35 @@
+drodriguez@ubuntu:~/Desktop/CSCD240/Lab1$ gcc -g cscd240Lab1.c -o cscd240lab1
+drodriguez@ubuntu:~/Desktop/CSCD240/Lab1$ ls
+cscd240lab1  cscd240Lab1.c  Makefile
+drodriguez@ubuntu:~/Desktop/CSCD240/Lab1$ ./cscd240lab1
+Please enter your shoe size ^[[2~
+Please enter your birth year (yyyy) The last two numbers are your age and the first number(s) are your shoe size: -19920
+drodriguez@ubuntu:~/Desktop/CSCD240/Lab1$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+drodriguez@ubuntu:~/Desktop/CSCD240/Lab1$ ./cscd240lab1
+Please enter your shoe size 0
+Please enter your birth year (yyyy) 0
+The last two numbers are your age and the first number(s) are your shoe size: 2018
+drodriguez@ubuntu:~/Desktop/CSCD240/Lab1$ ./cscd240lab1
+Please enter your shoe size 13
+Please enter your birth year (yyyy) 1998
+The last two numbers are your age and the first number(s) are your shoe size: 1320
+drodriguez@ubuntu:~/Desktop/CSCD240/Lab1$ ./cscd240lab1
+Please enter your shoe size contraband
+Please enter your birth year (yyyy) The last two numbers are your age and the first number(s) are your shoe size: -19995
+drodriguez@ubuntu:~/Desktop/CSCD240/Lab1$ ^C
+drodriguez@ubuntu:~/Desktop/CSCD240/Lab1$ 
+

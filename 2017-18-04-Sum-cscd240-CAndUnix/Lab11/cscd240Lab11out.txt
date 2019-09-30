@@ -1,0 +1,42 @@
+drodriguez@ubuntu:~/Desktop/CSCD240/Lab11$ ./lab11
+Please choose from the following
+1) Sort by Symbol
+2) Sort by Company Name
+3) Sort by Price
+4) Quit
+Choice --> 1
+ - ���XE�� - 721.110000
+Google - GOOG - 721.110000
+Hillenbrand Inc - HI - 30.650000
+Microsoft - MSFT - 53.240000
+Charles Schwab - SCHW - 31.370000
+Please choose from the following
+1) Sort by Symbol
+2) Sort by Company Name
+3) Sort by Price
+4) Quit
+Choice --> 2
+ - ���XE�� - 721.110000
+Charles Schwab - SCHW - 31.370000
+Google - GOOG - 721.110000
+Hillenbrand Inc - HI - 30.650000
+Microsoft - MSFT - 53.240000
+Please choose from the following
+1) Sort by Symbol
+2) Sort by Company Name
+3) Sort by Price
+4) Quit
+Choice --> 3
+Hillenbrand Inc - HI - 30.650000
+Charles Schwab - SCHW - 31.370000
+Microsoft - MSFT - 53.240000
+ - ���XE�� - 721.110000
+Google - GOOG - 721.110000
+Please choose from the following
+1) Sort by Symbol
+2) Sort by Company Name
+3) Sort by Price
+4) Quit
+Choice --> 4
+all done
+
